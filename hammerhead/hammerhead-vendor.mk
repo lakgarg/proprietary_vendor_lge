@@ -239,3 +239,5 @@ PRODUCT_PACKAGES += \
     shutdownlistener \
     OmaDmclient \
     SprintHiddenMenu
+
+$(call inherit-product-if-exists, $(VENDOR_QCOM_PATH)/bluetooth/bluetooth-vendor.mk)
