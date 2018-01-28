@@ -44,7 +44,9 @@ PRODUCT_PACKAGES += \
     DMService \
     Entitlement \
     GCS \
-    HotwordEnrollmentWCD9330 \
+    HotwordEnrollmentOKGoogleWCD9330 \
+    HotwordEnrollmentTGoogleWCD9330 \
+    HotwordEnrollmentXGoogleWCD9330 \
     LifeTimerService \
     qcrilmsgtunnel \
     SprintDM
