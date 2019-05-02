@@ -411,6 +411,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/vendor/lib64/hw/keystore.msm8992.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.msm8992.so \
     vendor/lge/bullhead/proprietary/vendor/lib64/hw/sound_trigger.primary.msm8992.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.msm8992.so \
     vendor/lge/bullhead/proprietary/vendor/lib64/hw/vulkan.msm8992.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.msm8992.so \
+    vendor/lge/bullhead/proprietary/vendor/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaptX_encoder.so \
+    vendor/lge/bullhead/proprietary/vendor/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaptXHD_encoder.so \
     vendor/lge/bullhead/proprietary/vendor/lib64/lib-dplmedia.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-dplmedia.so \
     vendor/lge/bullhead/proprietary/vendor/lib64/lib-ims-rcscmjni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-ims-rcscmjni.so \
     vendor/lge/bullhead/proprietary/vendor/lib64/lib-imsSDP.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsSDP.so \
