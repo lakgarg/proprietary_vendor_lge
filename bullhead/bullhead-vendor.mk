@@ -73,6 +73,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/lib/libdmjavaplugin.so:system/lib/libdmjavaplugin.so \
     vendor/lge/bullhead/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lge/bullhead/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/lge/bullhead/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
+    vendor/lge/bullhead/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
     vendor/lge/bullhead/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/lge/bullhead/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so
 
@@ -183,7 +185,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/vendor/lib/egl/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv2_adreno.so \
     vendor/lge/bullhead/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
     vendor/lge/bullhead/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
+    vendor/lge/bullhead/proprietary/vendor/lib/hw/activity_recognition.bullhead.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/activity_recognition.bullhead.so \
+    vendor/lge/bullhead/proprietary/vendor/lib/hw/bluetooth.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/bluetooth.default.so \
+    vendor/lge/bullhead/proprietary/vendor/lib/hw/nfc_nci.bullhead.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/nfc_nci.bullhead.so \
     vendor/lge/bullhead/proprietary/vendor/lib/hw/gatekeeper.msm8992.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.msm8992.so \
+    vendor/lge/bullhead/proprietary/vendor/lib/hw/keystore.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.default.so \
     vendor/lge/bullhead/proprietary/vendor/lib/hw/keystore.msm8992.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.msm8992.so \
     vendor/lge/bullhead/proprietary/vendor/lib/hw/sound_trigger.primary.msm8992.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.msm8992.so \
     vendor/lge/bullhead/proprietary/vendor/lib/hw/tof.vl6180.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/tof.vl6180.so \
@@ -405,14 +411,16 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv2_adreno.so \
     vendor/lge/bullhead/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_adreno.so \
     vendor/lge/bullhead/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so \
+    vendor/lge/bullhead/proprietary/vendor/lib64/hw/activity_recognition.bullhead.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/activity_recognition.bullhead.so \
+    vendor/lge/bullhead/proprietary/vendor/lib64/hw/bluetooth.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/bluetooth.default.so \
+    vendor/lge/bullhead/proprietary/vendor/lib64/hw/nfc_nci.bullhead.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/nfc_nci.bullhead.so \
     vendor/lge/bullhead/proprietary/vendor/lib64/hw/fingerprint.bullhead.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.bullhead.so \
     vendor/lge/bullhead/proprietary/vendor/lib64/hw/flp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/flp.default.so \
     vendor/lge/bullhead/proprietary/vendor/lib64/hw/gatekeeper.msm8992.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.msm8992.so \
     vendor/lge/bullhead/proprietary/vendor/lib64/hw/keystore.msm8992.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.msm8992.so \
+    vendor/lge/bullhead/proprietary/vendor/lib64/hw/keystore.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.default.so \
     vendor/lge/bullhead/proprietary/vendor/lib64/hw/sound_trigger.primary.msm8992.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.msm8992.so \
     vendor/lge/bullhead/proprietary/vendor/lib64/hw/vulkan.msm8992.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.msm8992.so \
-    vendor/lge/bullhead/proprietary/vendor/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaptX_encoder.so \
-    vendor/lge/bullhead/proprietary/vendor/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaptXHD_encoder.so \
     vendor/lge/bullhead/proprietary/vendor/lib64/lib-dplmedia.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-dplmedia.so \
     vendor/lge/bullhead/proprietary/vendor/lib64/lib-ims-rcscmjni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-ims-rcscmjni.so \
     vendor/lge/bullhead/proprietary/vendor/lib64/lib-imsSDP.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsSDP.so \
